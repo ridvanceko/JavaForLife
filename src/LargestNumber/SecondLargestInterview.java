@@ -14,7 +14,7 @@ public class SecondLargestInterview {
                 largest = array[i];
             } else if (array[i] > secondLargest && array[i] != largest) {
                 secondLargest = array[i];
-            };
+            }
         }
         System.out.println("The largest number= " + largest+ " and secondLargest= " + secondLargest);
     }
